@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Organika Bio Market: catálogo de productos naturales, orgánicos y saludables. Realiza tu pedido por WhatsApp."
+    />
+    <title>Organika Bio Market | Catálogo Natural</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand" aria-label="Organika Bio Market">
+          <span class="brand-mark">🌿</span>
+          <div>
+            <span class="brand-name">Organika</span>
+            <small>Bio Market</small>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a>
+          <a href="#catalogo">Catálogo</a>
+          <a href="#beneficios">Beneficios</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+
+        <a
+          class="btn btn-primary"
+          href="https://wa.me/59178000000?text=Hola%20Organika%20Bio%20Market%20quiero%20hacer%20un%20pedido"
+          target="_blank"
+          rel="noopener"
+        >
+          Pedir ahora
+        </a>
+      </div>
+    </header>
+
+    <main id="inicio">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Productos 100% naturales</span>
+            <h1>Cuida tu salud con lo mejor de la naturaleza.</h1>
+            <p>
+              Descubre alimentos, suplementos, hierbas y productos ecológicos
+              para tu bienestar diario. En Organika Bio Market encontrarás
+              calidad, sabor y confianza.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#catalogo" class="btn btn-primary">Ver catálogo</a>
+              <a
+                href="https://wa.me/59178000000?text=Hola%20Organika%20Bio%20Market%20me%20interesan%20sus%20productos"
+                target="_blank"
+                rel="noopener"
+                class="btn btn-secondary"
+              >
+                Hablar por WhatsApp
+              </a>
+            </div>
+
+            <ul class="hero-stats" aria-label="Estadísticas del negocio">
+              <li><strong>+500</strong><span>Productos</span></li>
+              <li><strong>100%</strong><span>Natural</span></li>
+              <li><strong>24/7</strong><span>Atención</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Productos destacados">
+            <div class="product-showcase">
+              <div class="showcase-badge">Más vendido</div>
+              <img
+                src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80"
+                alt="Productos naturales y orgánicos"
+              />
+              <div class="showcase-card">
+                <p>Combo bienestar</p>
+                <strong>Stevia + Miel + Sábila</strong>
+                <span>Desde Bs. 120</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="catalogo" class="catalog-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow eyebrow-alt">Nuestro catálogo</span>
+            <h2>Productos que impulsan tu bienestar</h2>
+          </div>
+
+          <div class="toolbar">
+            <div class="search-wrap">
+              <span aria-hidden="true">🔎</span>
+              <input
+                id="searchInput"
+                type="text"
+                placeholder="Buscar producto o categoría"
+                aria-label="Buscar producto"
+              />
+            </div>
+
+            <div class="category-filters" id="categoryFilters" aria-label="Filtros de categorías"></div>
+          </div>
+
+          <div id="productGrid" class="product-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="beneficios" class="benefits">
+        <div class="container">
+          <div class="section-heading center">
+            <span class="eyebrow eyebrow-alt">¿Por qué elegirnos?</span>
+            <h2>Calidad, confianza y sabor natural</h2>
+          </div>
+
+          <div class="benefits-grid">
+            <article class="benefit-card">
+              <div class="icon">🌱</div>
+              <h3>Productos naturales</h3>
+              <p>Seleccionamos ingredientes frescos, orgánicos y de origen responsable.</p>
+            </article>
+
+            <article class="benefit-card">
+              <div class="icon">💚</div>
+              <h3>Bienestar integral</h3>
+              <p>Soluciones para alimentación, energía, digestión, limpieza y salud.</p>
+            </article>
+
+            <article class="benefit-card">
+              <div class="icon">🚚</div>
+              <h3>Pedido rápido</h3>
+              <p>Compra fácil por WhatsApp y recibe atención personalizada.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacto" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">🌿</span>
+            <div>
+              <span class="brand-name">Organika</span>
+              <small>Bio Market</small>
+            </div>
+          </div>
+          <p>Productos naturales para una vida más saludable.</p>
+        </div>
+
+        <div>
+          <h4>Contacto</h4>
+          <ul>
+            <li>WhatsApp: +591 78000000</li>
+            <li>Horario: Lunes a Domingo</li>
+            <li>Bolivia</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Síguenos</h4>
+          <ul>
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Marketplace</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="copyright">© 2026 Organika Bio Market. Todos los derechos reservados.</div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+																																																																																																																																																																																																																																																																																													
+																																																																																																																																																																																																																																																																																																																																																																																															"},{
